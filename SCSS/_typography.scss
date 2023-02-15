@@ -1,0 +1,18 @@
+/*Font size*/
+h1 {
+    font-size: var(--font-big);
+  }
+  
+  h2{
+    font-size: var(--font-medium);
+  }
+  
+  small, h2, .footer, .color-name {
+    font-size: var(--font-small);
+  }
+  
+
+.pattern-section {
+    margin-bottom: 100px;
+    font-family:'IBM Plex Sans', sans-serif;
+  }

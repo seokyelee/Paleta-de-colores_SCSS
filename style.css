@@ -1,4 +1,4 @@
-@import 'variable.css';
+
 
 html {
     margin:0;
@@ -14,7 +14,7 @@ body {
     height: 100%;
     margin: auto;
     font-family: 'IBM Plex Sans', sans-serif;
-    color:var(--body__color-white);
+    color:#ffffff;
   }
  
   main {
@@ -26,7 +26,7 @@ body {
   width: 30%;
   height: 100%;
   position: fixed;
-  background-color: var(--bg-color-dark-darkgrey);
+  background-color: #141414;
   top: 0; 
   left: 0;
   padding-left:12px;
@@ -47,60 +47,60 @@ body {
 
 /*Font size*/
 h1 {
-  font-size: var(--font-big);
+  font-size: 42px;
 }
 
 h2{
-  font-size: var(--font-medium);
+  font-size: 24px;
 }
 
 small, h2, .footer, .color-name {
-  font-size: var(--font-small);
+  font-size: 14px;
 }
 
   /*colors*/
   
   h1{
-    color:var(--main__color-green) ;
+    color:#03E3BA;
   }
 
   h2, h3{
-    color:var(--body__color-white);
+    color:#ffffff;
   }
   small{
-  color:var(--main__color-green);
+  color:#03E3BA;
 }
   .pattern-color-main-color-green {
-    background-color:var(--main__color-green);
+    background-color:#03E3BA;
   }
   
   .pattern-color-main-color-darkgreen {
-    background-color: var(--main__color-darkgreen);
+    background-color: #081C16;
   }
   
   .bg-color-dark-darkgrey {
-    background-color: var(--bg-color-dark-darkgrey);
+    background-color:  #141414;
   }
   
   .bg-color-darkgrey{
-    background: var(--bg-color-darkgrey);
+    background: #201F1F;
   }
   
   .bg-color-grey{
-    background-color:var(--bg-color-grey);
+    background-color:#767676;
   }
   
   .bg-color-lightgrey{
-    background-color:var(--bg-color-lightgrey);
+    background-color:#999898;
   }
   
   .bg-color-white{
-    background-color:var(--body__color-white);
+    background-color:#ffffff;
   }
 
   .pattern-content {
     padding: 50px;
-    background-color:var( --main__color-darkgreen);
+    background-color:#081C16;
   }
   
   .pattern-section {
@@ -117,9 +117,9 @@ small, h2, .footer, .color-name {
     display:none;
     width: 850px;
     height: 100px;
-    color: var(--bg-color-dark-darkgrey);
-    border: 1px solid var(--bg-color-grey);
-    background: var(--bg-color-lightgrey);
+    color: #141414;
+    border: 1px solid #767676;
+    background: #999898;
     opacity: 85%;
   }
   
@@ -131,17 +131,17 @@ small, h2, .footer, .color-name {
     width: 200px;
     height: 40px;
     border-bottom: 0.5px solid #999898;
-    background-color: var(--body__color-white);
+    background-color: #ffffff;
     display: block;
-    color: var(--bg-color-grey);
+    color: #767676;
     text-align: center;
     padding: 20px 20px;
   }
   
   .pattern-title {
-    border-bottom: 0.5px solid var(--bg-color-grey);
-    font-size: var( --font-big) ;
-    color:var(--bg-color-lightgrey);
+    border-bottom: 0.5px solid #767676;
+    font-size: 42px ;
+    color: #999898;
   }
 
 
@@ -164,6 +164,6 @@ small, h2, .footer, .color-name {
      .color-name {
         width: 50px;
         height: auto;
-        text-shadow: 1px 1px var(--bg-color-darkgrey);
+        text-shadow: 1px 1px #201F1F;
      }
     }

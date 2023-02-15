@@ -1,0 +1,12 @@
+$unit:6px;
+
+
+.header {
+    width: 30%;
+    height: 100%;
+    position: fixed;
+    background-color: $bg-color-dark-darkgrey;
+    top: 0; 
+    left: 0;
+    padding-left: $unit*2;
+    }
